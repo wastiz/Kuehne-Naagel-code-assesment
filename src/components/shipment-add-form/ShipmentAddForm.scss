@@ -1,4 +1,23 @@
 .add-form {
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    hr {
+        background-color: lightgray;
+    }
+    .add-form-form{
+        padding: 70px;
+        .add-form-item {
+            display: flex;
+            flex-direction: column;
+            label {
+                margin: 5px;
+            }
+            input {
+                padding: 5px;
+            }
+        }
+    }
 }
