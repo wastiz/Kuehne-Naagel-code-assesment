@@ -10,9 +10,9 @@ class ShipmentService {
     }
     getAllShipment = async () => {
         const res = await this.getResource('https://my.api.mockaroo.com/shipments.json?key=5e0b62d0');
-        console.log(res);
         return res
     }
+
 }
 
 export default ShipmentService;
